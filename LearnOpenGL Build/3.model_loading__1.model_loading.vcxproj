@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -112,7 +112,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\bin\cmake.exe" -E copy C:/Users/Osama/Snowball/LearnOpenGL/src/3.model_loading/1.model_loading/1.model_loading.vs C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/Debug
 if %errorlevel% neq 0 goto :cmEnd
@@ -141,7 +142,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Osama/Snowball/LearnOpenGL Build/Debug/3.model_loading__1.model_loading.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/Debug/3.model_loading__1.model_loading.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -163,7 +165,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -178,7 +181,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\bin\cmake.exe" -E copy C:/Users/Osama/Snowball/LearnOpenGL/src/3.model_loading/1.model_loading/1.model_loading.vs C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/Release
 if %errorlevel% neq 0 goto :cmEnd
@@ -207,7 +211,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Osama/Snowball/LearnOpenGL Build/Release/3.model_loading__1.model_loading.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/Release/3.model_loading__1.model_loading.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -229,7 +234,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -244,7 +250,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\bin\cmake.exe" -E copy C:/Users/Osama/Snowball/LearnOpenGL/src/3.model_loading/1.model_loading/1.model_loading.vs C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
@@ -273,7 +280,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Osama/Snowball/LearnOpenGL Build/MinSizeRel/3.model_loading__1.model_loading.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/MinSizeRel/3.model_loading__1.model_loading.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -310,7 +318,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\bin\cmake.exe" -E copy C:/Users/Osama/Snowball/LearnOpenGL/src/3.model_loading/1.model_loading/1.model_loading.vs C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
@@ -339,7 +348,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Osama/Snowball/LearnOpenGL Build/RelWithDebInfo/3.model_loading__1.model_loading.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/RelWithDebInfo/3.model_loading__1.model_loading.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -402,21 +412,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp"  />
+    <ClCompile Include="C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Osama\Snowball\LearnOpenGL Build\ZERO_CHECK.vcxproj">
-      <Project>{B8C58C95-3128-3F67-9C4E-C21634A5E829}</Project>
-      <Name>ZERO_CHECK</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Osama\Snowball\LearnOpenGL Build\GLAD.vcxproj">
-      <Project>{B0961169-E8F7-3F1D-AB39-EACE46674E2E}</Project>
-      <Name>GLAD</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Osama\Snowball\LearnOpenGL Build\STB_IMAGE.vcxproj">
-      <Project>{C450B782-DB95-3727-831B-A4CF57814615}</Project>
-      <Name>STB_IMAGE</Name>
-    </ProjectReference>
+    <ClInclude Include="..\LearnOpenGL\includes\learnopengl\SceneObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

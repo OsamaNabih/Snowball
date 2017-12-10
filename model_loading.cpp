@@ -19,7 +19,8 @@ enum ModelIndeces {
 	FoxIndex,
 	SnowSceneIndex,
 	SceneIndex,
-	SnowmanIndex
+	SnowmanIndex,
+	ObjectsCount
 };
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -31,7 +32,7 @@ const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
 // camera
-Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+Camera camera(glm::vec3(8.2f, 5.0f, -0.2f));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
@@ -39,6 +40,8 @@ bool firstMouse = true;
 // timing
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
+float orientation = 0.0;
+float const pi = 22.0f / 7;
 
 int main()
 {
@@ -88,10 +91,21 @@ int main()
 
 	// load models
 	// -----------
-	Model ourModel(FileSystem::getPath("resources/objects/Project/ball01/ub2_snow_ball.obj"));
-	SceneObject BallObj("resources/objects/Project/ball01/ub2_snow_ball.obj", ourShader);
-
-
+	vector<SceneObject* > AllSceneObjects(ObjectsCount);
+	SceneObject Ball("resources/objects/Project/ball01/ball_set.obj", ourShader);
+	SceneObject Scene("resources/objects/project/scene/scene_set.obj", ourShader);
+	SceneObject Snowman("resources/objects/project/snowman/baked_snowman.obj", ourShader);
+	SceneObject Tree("resources/objects/Project/Tree/model(4).obj", ourShader);
+	SceneObject Fox("resources/objects/Project/Fox/ArcticFox_Posed.obj", ourShader);
+	SceneObject TreeTrunk("resources/objects/Project/tree trunk/tree_trunkfinal.obj", ourShader);
+	SceneObject SnowScene("resources/objects/Project/tree trunk/snowScene.obj", ourShader);
+	AllSceneObjects[BallIndex] = &Ball;
+	AllSceneObjects[TreeTrunkIndex] = &TreeTrunk;
+	AllSceneObjects[TreeIndex] = &Tree;
+	AllSceneObjects[FoxIndex] = &Fox;
+	AllSceneObjects[SnowSceneIndex] = &SnowScene;
+	AllSceneObjects[SceneIndex] = &Scene;
+	AllSceneObjects[SnowmanIndex] = &Snowman;
 	// draw in wireframe
 	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
@@ -104,6 +118,8 @@ int main()
 		float currentFrame = glfwGetTime();
 		deltaTime = currentFrame - lastFrame;
 		lastFrame = currentFrame;
+		orientation += 3.14159f / 2.0f * deltaTime;
+
 
 		// input
 		// -----
@@ -123,14 +139,53 @@ int main()
 		ourShader.setMat4("projection", projection);
 		ourShader.setMat4("view", view);
 
-		// render the loaded model
-		glm::mat4 model;
-		model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // translate it down so it's at the center of the scene
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));	// it's a bit too big for our scene, so scale it down
-		ourShader.setMat4("model", model);
-		ourModel.Draw(ourShader);
+
+		TreeTrunk.setRotation(pi / 2, glm::vec3(0.0f, 1.0f, 0.0f));
+		TreeTrunk.setScaling(glm::vec3(2.0f, 1.0f, 2.0f));
+		TreeTrunk.setTranslation(glm::vec3(0.2f, -1.05f, -3.0f));
+		TreeTrunk.Draw();
+
+		Scene.ResetRotation();
+		Scene.setTranslation(glm::vec3(0.0f, 0.0f, 0.0f));
+		Scene.setScaling(glm::vec3(0.5f, 0.2f, 0.5f));
+		Scene.Draw();
+
+		Scene.ResetRotation();
+		Scene.setRotation(pi, glm::vec3(0.0f, 1.0f, 0.0f));
+		Scene.setTranslation(glm::vec3(-9.8f, 0.0f, 0.0f));
+		Scene.setScaling(glm::vec3(0.5f, 0.2f, 0.5f));
+		Scene.Draw();
+
+		Snowman.setRotation(-7 * pi / 9, glm::vec3(0.0f, 1.0f, 0.0f));
+		Snowman.addRotation(pi / 2, glm::vec3(-1.0f, 0.0f, 0.0f));
+		Snowman.setScaling(glm::vec3(0.2f, 0.2f, 0.2f));
+		Snowman.setTranslation(glm::vec3(0.0f, -0.91f, 3.5f));
+		Snowman.Draw();
+
+	
+
+		Tree.setScaling(glm::vec3(0.5f, 0.8f, 0.5f));
+		Tree.setTranslation(glm::vec3(-3.0f, -0.88f, -1.0f));
+		Tree.Draw();
+
+		Fox.setRotation(7 * pi / 9, glm::vec3(0.0f, 1.0f, 0.0f));
+		Fox.setScaling(glm::vec3(0.06f, 0.06f, 0.06f));
+		Fox.setTranslation(glm::vec3(-1.4f, 0.82f, -1.6f));
+		Fox.Draw();
+
+		Ball.setScaling(glm::vec3(0.15f, 0.15f, 0.15f));
+		Ball.setTranslation(glm::vec3(0.8f - orientation, 0.23f, -0.6f));
+		Ball.Draw();
+		//camera.MoveForwards(orientation, deltaTime);
+		camera.setX(7.4f - orientation);
+
+		SnowScene.setRotation(-pi / 4, glm::vec3(0.0f, 1.0f, 0.0f));
+		SnowScene.setScaling(glm::vec3(0.2f, 0.2f, 0.2f));
+		SnowScene.setTranslation(glm::vec3(-2.0f, -0.8f, 1.8f));
 
 
+
+	
 		// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
 		// -------------------------------------------------------------------------------
 		glfwSwapBuffers(window);

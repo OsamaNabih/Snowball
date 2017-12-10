@@ -1,7 +1,7 @@
 The system is: Windows - 10.0.14393 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
-Build flags: 
+Build flags: /DWIN32;/D_WINDOWS;/W3
 Id flags:  
 
 The output was:
@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:51:53 PM.
+Build started 12/10/2017 7:58:17 PM.
 Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.80
+Time Elapsed 00:00:01.05
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -46,7 +46,7 @@ The C compiler identification is MSVC, found in "C:/Users/Osama/Snowball/LearnOp
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
-Build flags: 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
 Id flags:  
 
 The output was:
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:51:57 PM.
+Build started 12/10/2017 7:58:18 PM.
 Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\3.9.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.25
+Time Elapsed 00:00:00.67
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,157 +92,157 @@ The CXX compiler identification is MSVC, found in "C:/Users/Osama/Snowball/Learn
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6acb7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ba7e6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:51:59 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_6acb7.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:19 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_ba7e6.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_6acb7.dir\Debug\".
+  Creating directory "cmTC_ba7e6.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_6acb7.dir\Debug\cmTC_6acb7.tlog\".
+  Creating directory "cmTC_ba7e6.dir\Debug\cmTC_ba7e6.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_6acb7.dir\Debug\cmTC_6acb7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_ba7e6.dir\Debug\cmTC_ba7e6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6acb7.dir\Debug\\" /Fd"cmTC_6acb7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba7e6.dir\Debug\\" /Fd"cmTC_ba7e6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCCompiler.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6acb7.dir\Debug\\" /Fd"cmTC_6acb7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba7e6.dir\Debug\\" /Fd"cmTC_ba7e6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCCompiler.c"
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_6acb7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_6acb7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_6acb7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6acb7.dir\Debug\testCCompiler.obj
-  cmTC_6acb7.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_6acb7.exe
-  cmTC_6acb7.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_6acb7.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_ba7e6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_ba7e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_ba7e6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ba7e6.dir\Debug\testCCompiler.obj
+  cmTC_ba7e6.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_ba7e6.exe
+  cmTC_ba7e6.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_ba7e6.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_6acb7.dir\Debug\cmTC_6acb7.tlog\unsuccessfulbuild".
-  Touching "cmTC_6acb7.dir\Debug\cmTC_6acb7.tlog\cmTC_6acb7.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_6acb7.vcxproj" (default targets).
+  Deleting file "cmTC_ba7e6.dir\Debug\cmTC_ba7e6.tlog\unsuccessfulbuild".
+  Touching "cmTC_ba7e6.dir\Debug\cmTC_ba7e6.tlog\cmTC_ba7e6.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_ba7e6.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.77
+Time Elapsed 00:00:00.94
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9006d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7aa6c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:01 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_9006d.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:20 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_7aa6c.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_9006d.dir\Debug\".
+  Creating directory "cmTC_7aa6c.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_9006d.dir\Debug\cmTC_9006d.tlog\".
+  Creating directory "cmTC_7aa6c.dir\Debug\cmTC_7aa6c.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_9006d.dir\Debug\cmTC_9006d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_7aa6c.dir\Debug\cmTC_7aa6c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9006d.dir\Debug\\" /Fd"cmTC_9006d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa6c.dir\Debug\\" /Fd"cmTC_7aa6c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9006d.dir\Debug\\" /Fd"cmTC_9006d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa6c.dir\Debug\\" /Fd"cmTC_7aa6c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_9006d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_9006d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_9006d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9006d.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_9006d.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_9006d.exe
-  cmTC_9006d.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_9006d.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_7aa6c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_7aa6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_7aa6c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7aa6c.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_7aa6c.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_7aa6c.exe
+  cmTC_7aa6c.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_7aa6c.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_9006d.dir\Debug\cmTC_9006d.tlog\unsuccessfulbuild".
-  Touching "cmTC_9006d.dir\Debug\cmTC_9006d.tlog\cmTC_9006d.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_9006d.vcxproj" (default targets).
+  Deleting file "cmTC_7aa6c.dir\Debug\cmTC_7aa6c.tlog\unsuccessfulbuild".
+  Touching "cmTC_7aa6c.dir\Debug\cmTC_7aa6c.tlog\cmTC_7aa6c.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_7aa6c.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.48
+Time Elapsed 00:00:00.81
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4cd96.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1d57b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:03 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_4cd96.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:21 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_1d57b.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_4cd96.dir\Debug\".
+  Creating directory "cmTC_1d57b.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_4cd96.dir\Debug\cmTC_4cd96.tlog\".
+  Creating directory "cmTC_1d57b.dir\Debug\cmTC_1d57b.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_4cd96.dir\Debug\cmTC_4cd96.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_1d57b.dir\Debug\cmTC_1d57b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4cd96.dir\Debug\\" /Fd"cmTC_4cd96.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d57b.dir\Debug\\" /Fd"cmTC_1d57b.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4cd96.dir\Debug\\" /Fd"cmTC_4cd96.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d57b.dir\Debug\\" /Fd"cmTC_1d57b.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_4cd96.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_4cd96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_4cd96.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4cd96.dir\Debug\testCXXCompiler.obj
-  cmTC_4cd96.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_4cd96.exe
-  cmTC_4cd96.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_4cd96.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_1d57b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_1d57b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_1d57b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1d57b.dir\Debug\testCXXCompiler.obj
+  cmTC_1d57b.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_1d57b.exe
+  cmTC_1d57b.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_1d57b.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_4cd96.dir\Debug\cmTC_4cd96.tlog\unsuccessfulbuild".
-  Touching "cmTC_4cd96.dir\Debug\cmTC_4cd96.tlog\cmTC_4cd96.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_4cd96.vcxproj" (default targets).
+  Deleting file "cmTC_1d57b.dir\Debug\cmTC_1d57b.tlog\unsuccessfulbuild".
+  Touching "cmTC_1d57b.dir\Debug\cmTC_1d57b.tlog\cmTC_1d57b.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_1d57b.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.51
+Time Elapsed 00:00:00.98
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c9bcf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_98346.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:05 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_c9bcf.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:23 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_98346.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_c9bcf.dir\Debug\".
+  Creating directory "cmTC_98346.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_c9bcf.dir\Debug\cmTC_c9bcf.tlog\".
+  Creating directory "cmTC_98346.dir\Debug\cmTC_98346.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_c9bcf.dir\Debug\cmTC_c9bcf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_98346.dir\Debug\cmTC_98346.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9bcf.dir\Debug\\" /Fd"cmTC_c9bcf.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_98346.dir\Debug\\" /Fd"cmTC_98346.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9bcf.dir\Debug\\" /Fd"cmTC_c9bcf.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_98346.dir\Debug\\" /Fd"cmTC_98346.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\D\PDFS\College\2nd year\1st term\Computer Graphics\Labs\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_c9bcf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_c9bcf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_c9bcf.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c9bcf.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_c9bcf.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_c9bcf.exe
-  cmTC_c9bcf.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_c9bcf.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_98346.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_98346.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_98346.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_98346.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_98346.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_98346.exe
+  cmTC_98346.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_98346.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_c9bcf.dir\Debug\cmTC_c9bcf.tlog\unsuccessfulbuild".
-  Touching "cmTC_c9bcf.dir\Debug\cmTC_c9bcf.tlog\cmTC_c9bcf.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_c9bcf.vcxproj" (default targets).
+  Deleting file "cmTC_98346.dir\Debug\cmTC_98346.tlog\unsuccessfulbuild".
+  Touching "cmTC_98346.dir\Debug\cmTC_98346.tlog\cmTC_98346.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_98346.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.40
+Time Elapsed 00:00:00.98
 
 
 
@@ -250,40 +250,40 @@ Time Elapsed 00:00:01.40
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dec97.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e8af8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:07 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_dec97.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:24 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_e8af8.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_dec97.dir\Debug\".
+  Creating directory "cmTC_e8af8.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_dec97.dir\Debug\cmTC_dec97.tlog\".
+  Creating directory "cmTC_e8af8.dir\Debug\cmTC_e8af8.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_dec97.dir\Debug\cmTC_dec97.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_e8af8.dir\Debug\cmTC_e8af8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dec97.dir\Debug\\" /Fd"cmTC_dec97.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8af8.dir\Debug\\" /Fd"cmTC_e8af8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dec97.dir\Debug\\" /Fd"cmTC_dec97.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8af8.dir\Debug\\" /Fd"cmTC_e8af8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_dec97.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_dec97.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_dec97.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_dec97.dir\Debug\feature_tests.obj
-  cmTC_dec97.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_dec97.exe
-  cmTC_dec97.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_dec97.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_e8af8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_e8af8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_e8af8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e8af8.dir\Debug\feature_tests.obj
+  cmTC_e8af8.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_e8af8.exe
+  cmTC_e8af8.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_e8af8.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_dec97.dir\Debug\cmTC_dec97.tlog\unsuccessfulbuild".
-  Touching "cmTC_dec97.dir\Debug\cmTC_dec97.tlog\cmTC_dec97.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_dec97.vcxproj" (default targets).
+  Deleting file "cmTC_e8af8.dir\Debug\cmTC_e8af8.tlog\unsuccessfulbuild".
+  Touching "cmTC_e8af8.dir\Debug\cmTC_e8af8.tlog\cmTC_e8af8.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_e8af8.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.96
+Time Elapsed 00:00:00.90
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -346,40 +346,40 @@ Time Elapsed 00:00:00.96
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_82465.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_32839.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:09 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_82465.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:26 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_32839.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_82465.dir\Debug\".
+  Creating directory "cmTC_32839.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_82465.dir\Debug\cmTC_82465.tlog\".
+  Creating directory "cmTC_32839.dir\Debug\cmTC_32839.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_82465.dir\Debug\cmTC_82465.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_32839.dir\Debug\cmTC_32839.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82465.dir\Debug\\" /Fd"cmTC_82465.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_32839.dir\Debug\\" /Fd"cmTC_32839.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82465.dir\Debug\\" /Fd"cmTC_82465.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_32839.dir\Debug\\" /Fd"cmTC_32839.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_82465.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_82465.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_82465.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_82465.dir\Debug\feature_tests.obj
-  cmTC_82465.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_82465.exe
-  cmTC_82465.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_82465.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_32839.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_32839.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_32839.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_32839.dir\Debug\feature_tests.obj
+  cmTC_32839.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_32839.exe
+  cmTC_32839.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_32839.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_82465.dir\Debug\cmTC_82465.tlog\unsuccessfulbuild".
-  Touching "cmTC_82465.dir\Debug\cmTC_82465.tlog\cmTC_82465.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_82465.vcxproj" (default targets).
+  Deleting file "cmTC_32839.dir\Debug\cmTC_32839.tlog\unsuccessfulbuild".
+  Touching "cmTC_32839.dir\Debug\cmTC_32839.tlog\cmTC_32839.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_32839.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.93
+Time Elapsed 00:00:00.86
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -442,40 +442,40 @@ Time Elapsed 00:00:00.93
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ca7cf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_33eed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:11 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_ca7cf.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:27 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_33eed.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_ca7cf.dir\Debug\".
+  Creating directory "cmTC_33eed.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_ca7cf.dir\Debug\cmTC_ca7cf.tlog\".
+  Creating directory "cmTC_33eed.dir\Debug\cmTC_33eed.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_ca7cf.dir\Debug\cmTC_ca7cf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_33eed.dir\Debug\cmTC_33eed.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ca7cf.dir\Debug\\" /Fd"cmTC_ca7cf.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_33eed.dir\Debug\\" /Fd"cmTC_33eed.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ca7cf.dir\Debug\\" /Fd"cmTC_ca7cf.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_33eed.dir\Debug\\" /Fd"cmTC_33eed.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_ca7cf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_ca7cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_ca7cf.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ca7cf.dir\Debug\feature_tests.obj
-  cmTC_ca7cf.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_ca7cf.exe
-  cmTC_ca7cf.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_ca7cf.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_33eed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_33eed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_33eed.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_33eed.dir\Debug\feature_tests.obj
+  cmTC_33eed.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_33eed.exe
+  cmTC_33eed.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_33eed.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_ca7cf.dir\Debug\cmTC_ca7cf.tlog\unsuccessfulbuild".
-  Touching "cmTC_ca7cf.dir\Debug\cmTC_ca7cf.tlog\cmTC_ca7cf.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_ca7cf.vcxproj" (default targets).
+  Deleting file "cmTC_33eed.dir\Debug\cmTC_33eed.tlog\unsuccessfulbuild".
+  Touching "cmTC_33eed.dir\Debug\cmTC_33eed.tlog\cmTC_33eed.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_33eed.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.38
+Time Elapsed 00:00:01.42
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -538,40 +538,40 @@ Time Elapsed 00:00:01.38
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1613f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9e01c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/6/2017 9:52:13 PM.
-Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_1613f.vcxproj" on node 1 (default targets).
+Build started 12/10/2017 7:58:29 PM.
+Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_9e01c.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_1613f.dir\Debug\".
+  Creating directory "cmTC_9e01c.dir\Debug\".
   Creating directory "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_1613f.dir\Debug\cmTC_1613f.tlog\".
+  Creating directory "cmTC_9e01c.dir\Debug\cmTC_9e01c.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_1613f.dir\Debug\cmTC_1613f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_9e01c.dir\Debug\cmTC_9e01c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1613f.dir\Debug\\" /Fd"cmTC_1613f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9e01c.dir\Debug\\" /Fd"cmTC_9e01c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1613f.dir\Debug\\" /Fd"cmTC_1613f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9e01c.dir\Debug\\" /Fd"cmTC_9e01c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_1613f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_1613f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_1613f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1613f.dir\Debug\feature_tests.obj
-  cmTC_1613f.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_1613f.exe
-  cmTC_1613f.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_1613f.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_9e01c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_9e01c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_9e01c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9e01c.dir\Debug\feature_tests.obj
+  cmTC_9e01c.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\Debug\cmTC_9e01c.exe
+  cmTC_9e01c.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL Build/CMakeFiles/CMakeTmp/Debug/cmTC_9e01c.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_1613f.dir\Debug\cmTC_1613f.tlog\unsuccessfulbuild".
-  Touching "cmTC_1613f.dir\Debug\cmTC_1613f.tlog\cmTC_1613f.lastbuildstate".
-Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_1613f.vcxproj" (default targets).
+  Deleting file "cmTC_9e01c.dir\Debug\cmTC_9e01c.tlog\unsuccessfulbuild".
+  Touching "cmTC_9e01c.dir\Debug\cmTC_9e01c.tlog\cmTC_9e01c.lastbuildstate".
+Done Building Project "C:\Users\Osama\Snowball\LearnOpenGL Build\CMakeFiles\CMakeTmp\cmTC_9e01c.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.15
+Time Elapsed 00:00:00.89
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

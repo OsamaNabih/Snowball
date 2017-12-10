@@ -1,24 +1,2 @@
-﻿cl : Command line warning D9002: ignoring unknown option '/EH;'
-cl : Command line warning D9002: ignoring unknown option '/EH-'
-cl : Command line warning D9002: ignoring unknown option '/EHt'
-cl : Command line warning D9002: ignoring unknown option '/EHd'
-cl : Command line warning D9002: ignoring unknown option '/EH='
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH1'
-cl : Command line warning D9002: ignoring unknown option '/EH1'
-  model_loading.cpp
-C:\Users\Osama\Snowball\LearnOpenGL\includes\learnopengl/filesystem.h(23): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
-C:\Users\Osama\Snowball\LearnOpenGL\includes\learnopengl/shader_m.h(53): warning C4101: 'infoLog': unreferenced local variable
-C:\Users\Osama\Snowball\LearnOpenGL\includes\learnopengl/shader_m.h(52): warning C4101: 'success': unreferenced local variable
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(123): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(234): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(235): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(239): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(240): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(242): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(243): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp(252): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  3.model_loading__1.model_loading.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL\bin\3.model_loading\Debug\3.model_loading__1.model_loading.exe
+﻿  3.model_loading__1.model_loading.vcxproj -> C:\Users\Osama\Snowball\LearnOpenGL\bin\3.model_loading\Debug\3.model_loading__1.model_loading.exe
   3.model_loading__1.model_loading.vcxproj -> C:/Users/Osama/Snowball/LearnOpenGL/bin/3.model_loading/Debug/3.model_loading__1.model_loading.pdb (Full PDB)

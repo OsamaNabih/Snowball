@@ -415,6 +415,20 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Osama\Snowball\LearnOpenGL\src\3.model_loading\1.model_loading\model_loading.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="C:\Users\Osama\Snowball\LearnOpenGL Build\ZERO_CHECK.vcxproj">
+      <Project>{B8C58C95-3128-3F67-9C4E-C21634A5E829}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Osama\Snowball\LearnOpenGL Build\GLAD.vcxproj">
+      <Project>{B0961169-E8F7-3F1D-AB39-EACE46674E2E}</Project>
+      <Name>GLAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Osama\Snowball\LearnOpenGL Build\STB_IMAGE.vcxproj">
+      <Project>{C450B782-DB95-3727-831B-A4CF57814615}</Project>
+      <Name>STB_IMAGE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="..\LearnOpenGL\includes\learnopengl\SceneObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -40,7 +40,7 @@ bool firstMouse = true;
 // timing
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
-float orientation = 0.0;
+float orientation = -4.2;
 float const pi = 22.0f / 7;
 
 int main()
@@ -118,12 +118,12 @@ int main()
 		float currentFrame = glfwGetTime();
 		deltaTime = currentFrame - lastFrame;
 		lastFrame = currentFrame;
-		orientation += 3.14159f / 2.0f * deltaTime;
+		orientation += 3.14159f * deltaTime;
 
 
 		// input
 		// -----
-		processInput(window);
+		//processInput(window);
 
 		// render
 		// ------
@@ -173,8 +173,9 @@ int main()
 		Fox.setTranslation(glm::vec3(-1.4f, 0.82f, -1.6f));
 		Fox.Draw();
 
+		Ball.setRotation(orientation * 5, glm::vec3(0.0f, 0.0f, 1.0f));
 		Ball.setScaling(glm::vec3(0.15f, 0.15f, 0.15f));
-		Ball.setTranslation(glm::vec3(0.8f - orientation, 0.23f, -0.6f));
+		Ball.setTranslation(glm::vec3(0.8f - orientation, 0.23f, -0.2f));
 		Ball.Draw();
 		//camera.MoveForwards(orientation, deltaTime);
 		camera.setX(7.4f - orientation);
